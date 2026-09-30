@@ -1,0 +1,4 @@
+Modelo,Parámetros totales,Parámetros entrenables,% entrenable,Resolución,GMACs por imagen,GFLOPs por imagen,Latencia por imagen (ms),Tiempo por epoch (s),Epochs hasta la mejor métrica,Epochs ejecutadas,Tiempo total (min),Memoria pico (MB),GMACs forward por imagen (entrenamiento),GMACs forward + backward por imagen (entrenamiento),PFLOPs de entrenamiento,Accuracy test,Precision test,Recall test,F1 test,F1 test 10 %,Caída de F1 (puntos)
+CNN desde cero,2198602,2198602,100.0,32x32,0.154,0.308,1.96,27.3,17,20,9.39,269.3,0.154,0.462,0.832,0.86,0.8624,0.86,0.8589,0.6115,24.74
+VGG-16 feature extractor,134301514,119586826,89.04,128x128,5.135,10.27,13.43,66.7,3,6,11.2,1396.8,0.12,0.359,0.645,0.8863,0.889,0.8863,0.8866,0.832,5.46
+VGG-16 fine-tuning,134301514,132566026,98.71,128x128,5.135,10.27,9.99,349.8,5,5,31.07,1860.5,5.135,9.301,4.186,0.928,0.9281,0.928,0.9279,0.8606,6.73
